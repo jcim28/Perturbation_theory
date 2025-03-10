@@ -1,4 +1,4 @@
-__ CLASS (Modificación) __
+__CLASS (Modificación)__
 
 En este reposiotio se encuentra una copia del código [CLASS](https://github.com/lesgourg/class_public.git) desarrollado por Julien Lesgourgues, Thomas Tram, Nils Schoeneberg.
 
