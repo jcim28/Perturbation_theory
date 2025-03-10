@@ -2072,6 +2072,8 @@ int background_solve(
              pba->Omega0_dr+pba->Omega0_dcdm,pba->Omega0_dcdmdr);
       printf("     -> Omega_ini_dcdm/Omega_b = %f\n",pba->Omega_ini_dcdm/pba->Omega0_b);
     }
+    if(pba->has_lambda == _TRUE_){
+      printf(" -> Omega_Lmabda = %g", pvecback[pba->index_bg_rho_lambda]/pvecback[pba->index_bg_rho_crit]);}
     if (pba->has_scf == _TRUE_) {
       printf("    Scalar field details:\n");
       printf("     -> Omega_scf = %g, wished %g\n",
